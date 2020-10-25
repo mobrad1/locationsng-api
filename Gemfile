@@ -5,7 +5,7 @@ gem 'rails', '4.2.6'
 gem 'rails-api'
 gem 'locations_ng', '>= 1.0.0'
 gem 'rack-cors', require: 'rack/cors'
-gem 'json', '1.8.3'
+gem 'json', '>= 1.8'
 
 group :production do
   gem 'pg'
