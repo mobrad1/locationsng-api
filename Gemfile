@@ -5,6 +5,7 @@ gem 'rails', '4.2.6'
 gem 'rails-api'
 gem 'locations_ng', '>= 1.0.0'
 gem 'rack-cors', require: 'rack/cors'
+gem install json -v '1.8.3' --source 'https://rubygems.org/'
 
 group :production do
   gem 'pg'
